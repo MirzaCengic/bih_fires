@@ -1,5 +1,5 @@
 # bih_fires
-Repo to make active fire map animation for BiH
+## Repository for making animation depicting active fires for Bosnia & Herzegovina
 
 Animation shows development of active fires over a 10 day period in the southern half of Bosnia & Herzegovina. Active fire data taken from NASA Suomi NPP satellite - https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data
 
