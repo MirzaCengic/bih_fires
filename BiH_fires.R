@@ -23,6 +23,12 @@ bih_boundary <- st_as_sf(raster::getData(name = "GADM", country = "BIH", level =
 # Crop fires to BiH
 bih_fires <- st_intersection(europe_fires, bih_boundary)
 
+# bih_fires %>% 
+#   select(LATITUDE, LONGITUDE, ACQ_DATE, BRIGHT_TI4) %>% 
+#   st_write("Y:/Mirza_Cengic/Projects/Other/Fires/BiH_fires_aug17.shp")
+
+
+
 # Plot
 mapview(bih_fires, zcol = "ACQ_DATE")
 
